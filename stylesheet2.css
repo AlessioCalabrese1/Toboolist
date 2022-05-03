@@ -1,0 +1,89 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+main{
+    background-color: rgb(226, 222, 222);
+    padding: 0px auto;
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+
+h1{
+    display: inline-block;
+    vertical-align: middle;
+}
+
+#testata{
+    padding: 20px;
+}
+
+#sezione_centrale{
+    width: 60%;
+    margin: 0 auto;
+    border-radius: 10px;
+    background-color: white;
+}
+
+#pulsanti{
+    padding: 10px 40px;
+    
+}
+
+button{
+    box-sizing: content-box;
+    height: 20px;
+    background-color: rgb(85, 170, 239);
+    outline: none;
+    color: white;
+    text-align: center;
+    vertical-align: middle;
+    border-radius: 5px;
+    border-color: rgba(255, 255, 255, 0);
+    cursor: pointer;
+}
+
+.barra-ricerca{
+    width: 90px;
+    height: 24px;
+    text-align: center;
+    vertical-align: middle;
+    border-radius: 5px;
+    
+}
+.testo-bottoni{
+    padding: 15px;
+}
+
+.sezioni{
+    padding: 30px 40px;
+}
+
+/* p{
+    line-height: 100px;
+} */
+
+.post-it{
+    font-size: 10px;
+    display: inline-block;
+    box-sizing: content-box;
+    background-color: rgb(85, 170, 239);
+    padding: 5px 10px;
+    border-radius: 10px;
+    vertical-align: middle;
+    text-align: center;
+    color: white;
+}
+
+.marker{
+    display: inline-block;
+    box-sizing: content-box;
+    border-radius: 20px;
+    border-width: 5px;
+    vertical-align: middle;
+    text-align: center;
+    font-weight: bold;
+    vertical-align: middle;
+}
